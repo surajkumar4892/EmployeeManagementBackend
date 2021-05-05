@@ -51,12 +51,3 @@ server.listen(port,()=>{
         debugLog(`Routes configured for ${route.getName()}`)
     })
 })
-
-// const add=(a:number,b:number):number => a+b;
-
-// app.get('/',(req:Request,res:Response,next:NextFunction)=>{
-//     console.log(add(5,5))
-//     res.send('hello')
-// })
-
-// app.listen(5000,()=>console.log('server running on port number 5000'));
